@@ -1,0 +1,11 @@
+F:\Workspace\QColor\QColorTools\QColorTools\bin\Debug\QColorTools.exe
+F:\Workspace\QColor\QColorTools\QColorTools\bin\Debug\QColorTools.pdb
+F:\Workspace\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.Properties.Resources.resources
+F:\Workspace\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.csproj.GenerateResource.Cache
+F:\Workspace\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.exe
+F:\Workspace\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.pdb
+F:\Workspace\QColor\QColorTools\QColorTools\bin\Debug\QColorTools.exe.config
+F:\Workspace\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.MainForm.resources
+F:\Workspace\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.StrawForm.resources
+F:\Workspace\QColor\QColorTools\QColorTools\bin\Debug\straw.cur
+F:\Workspace\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.csprojResolveAssemblyReference.cache
