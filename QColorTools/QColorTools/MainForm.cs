@@ -174,6 +174,7 @@ namespace QColorTools
                 this.tbxR.Text = panelColor.ForeColor.R.ToString();
                 this.tbxG.Text = panelColor.ForeColor.G.ToString();
                 this.tbxB.Text = panelColor.ForeColor.B.ToString();
+                this.tbxColorString.Text = ConvertColorToString(panelColor.ForeColor);
             }
         }
     }
