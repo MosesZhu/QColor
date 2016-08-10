@@ -30,7 +30,7 @@ namespace QColorTools
             Graphics g = Graphics.FromImage(bitmap);
             g.CopyFromScreen(0, 0, 0, 0, bitmap.Size);
 
-            using(StrawForm strawForm = new StrawForm(bitmap, this.panelColor)) 
+            using (StrawForm strawForm = new StrawForm(bitmap, this.panelColor))
             {
                 strawForm.ShowDialog();
             }
@@ -160,6 +160,21 @@ namespace QColorTools
             this.tbxColorString.Text = ConvertColorToString(c);
 
             BindEvent();
+        }
+
+        private void btnPalette_Click(object sender, EventArgs e)
+        {
+            ColorDialog dlgColor = new ColorDialog();
+            dlgColor.AllowFullOpen = true;
+            dlgColor.Color = panelColor.ForeColor;
+
+            if (dlgColor.ShowDialog() == DialogResult.OK)
+            {
+                panelColor.ForeColor = dlgColor.Color;
+                this.tbxR.Text = panelColor.ForeColor.R.ToString();
+                this.tbxG.Text = panelColor.ForeColor.G.ToString();
+                this.tbxB.Text = panelColor.ForeColor.B.ToString();
+            }
         }
     }
 }

@@ -9,3 +9,14 @@ F:\Workspace\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.MainForm.r
 F:\Workspace\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.StrawForm.resources
 F:\Workspace\QColor\QColorTools\QColorTools\bin\Debug\straw.cur
 F:\Workspace\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.csprojResolveAssemblyReference.cache
+E:\Repository\QColor\QColorTools\QColorTools\bin\Debug\QColorTools.exe.config
+E:\Repository\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.exe
+E:\Repository\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.pdb
+E:\Repository\QColor\QColorTools\QColorTools\bin\Debug\straw.cur
+E:\Repository\QColor\QColorTools\QColorTools\bin\Debug\QColorTools.exe
+E:\Repository\QColor\QColorTools\QColorTools\bin\Debug\QColorTools.pdb
+E:\Repository\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.csprojResolveAssemblyReference.cache
+E:\Repository\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.MainForm.resources
+E:\Repository\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.Properties.Resources.resources
+E:\Repository\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.StrawForm.resources
+E:\Repository\QColor\QColorTools\QColorTools\obj\x86\Debug\QColorTools.csproj.GenerateResource.Cache
