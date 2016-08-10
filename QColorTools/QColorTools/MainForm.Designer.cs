@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnStraw = new System.Windows.Forms.Button();
             this.panelColor = new System.Windows.Forms.Panel();
             this.tbxColorString = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,19 +38,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tbxB = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnPalette = new System.Windows.Forms.Button();
+            this.btnStraw = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnStraw
-            // 
-            this.btnStraw.BackgroundImage = global::QColorTools.Properties.Resources.icon_straw2;
-            this.btnStraw.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnStraw.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnStraw.Location = new System.Drawing.Point(248, 12);
-            this.btnStraw.Name = "btnStraw";
-            this.btnStraw.Size = new System.Drawing.Size(32, 33);
-            this.btnStraw.TabIndex = 0;
-            this.btnStraw.UseVisualStyleBackColor = true;
-            this.btnStraw.Click += new System.EventHandler(this.btnStraw_Click);
             // 
             // panelColor
             // 
@@ -144,11 +133,36 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "B";
             // 
+            // btnPalette
+            // 
+            this.btnPalette.BackgroundImage = global::QColorTools.Properties.Resources.icon_palette;
+            this.btnPalette.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnPalette.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnPalette.Location = new System.Drawing.Point(248, 78);
+            this.btnPalette.Name = "btnPalette";
+            this.btnPalette.Size = new System.Drawing.Size(32, 33);
+            this.btnPalette.TabIndex = 11;
+            this.btnPalette.UseVisualStyleBackColor = true;
+            this.btnPalette.Click += new System.EventHandler(this.btnPalette_Click);
+            // 
+            // btnStraw
+            // 
+            this.btnStraw.BackgroundImage = global::QColorTools.Properties.Resources.icon_straw2;
+            this.btnStraw.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnStraw.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnStraw.Location = new System.Drawing.Point(248, 12);
+            this.btnStraw.Name = "btnStraw";
+            this.btnStraw.Size = new System.Drawing.Size(32, 33);
+            this.btnStraw.TabIndex = 0;
+            this.btnStraw.UseVisualStyleBackColor = true;
+            this.btnStraw.Click += new System.EventHandler(this.btnStraw_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(292, 273);
+            this.Controls.Add(this.btnPalette);
             this.Controls.Add(this.tbxB);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.tbxG);
@@ -180,6 +194,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tbxB;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnPalette;
     }
 }
 

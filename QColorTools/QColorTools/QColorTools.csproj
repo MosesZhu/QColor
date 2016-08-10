@@ -98,6 +98,7 @@
     <None Include="Resources\icon_straw2.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\icon_palette.png" />
     <Content Include="straw.cur">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
